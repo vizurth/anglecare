@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/home.css">
+	<title>AngleKare - Home</title>
+</head>
+
+<body>
+	<header>
+		<div class="b-h-b">
+			<div class="bhb-lt">
+				<div class="bhb-l">
+					ANGLEKARE
+				</div>
+				<div class="burger" onclick="toggleMenu()">☰</div>
+				<div class="menu" id="menu">
+					<a href="./index.html">Home</a> <br>
+					<a href="./paycont.html">Payments</a> <br>
+					<a href="./services.html">Services</a> <br>
+					<a href="./story.html">Our Story</a>
+				</div>
+				<div class="bhb-a">
+					<a class="bhb-t-ahref bhb-open" href="./index.html">
+						Home
+					</a>
+					<a class="bhb-t-ahref" href="./services.html">
+						Services
+					</a>
+					<a class="bhb-t-ahref" href="./paycont.html">
+						Payments/Contact info
+					</a>
+					<a class="bhb-t-ahref" href="./story.html">
+						Our Story
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="block-1s">
+		<div class="block-1">
+			<div class="b-b-1">
+				<div class="b1-t-p">
+					Home Health Care <br>
+					and Caregiving <br>
+					Services
+				</div>
+				<div class="b1-t-d">
+					Compassionate care for your loved ones <br>
+					Help yor aging parents
+				</div>
+				<div class="btn-b1-r">
+					<a class="btn-b1-a" href="./services.html">
+						<div class="btn-b1">
+							Our Services
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block-2s">
+		<div class="block-2">
+			<div class="block-2-d">
+				<div class="b2-t-p">
+					About us
+				</div>
+				<div class="b2-t-d">
+					AngelKare Home Health Care and Caregiving Service. <br>
+					We provide professional and compassionate <br>
+					home caregivers in Aberdeen, SD and the surrounding areas.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block-3s">
+		<div class="block-3">
+			<div class="b-t3-d">
+				<div class="b3-t-p">
+					Problems is
+				</div>
+				<div class="b3-t-d">
+					Some 8.5 million people over the age of 70 have limitations,<br>
+					either in activities of daily living (ADLs;<br>
+					walking, dressing, bathing) or instumental activites<br>
+					of daily living ( IDLs; shopping, paying bills, preparing meals).<br>
+					Although they are not disabled to the extent they need institutional care,<br>
+					they do need some help to function in the community.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="strelka-1"></div>
+	<div class="block-img-s">
+		<div class="block-img">
+			<img id="img" class="img-b" src="./img/1.png">
+		</div>
+	</div>
+	<div class="strelka-1"></div>
+	<div class="block4s">
+		<div class="block4">
+			<span class="our">
+				Our Goal
+			</span>
+			<h4>
+				To Improve the Quality of Life and Level of Independence for EVERY Client and Family <br>
+				Receiving Our Services, we dedicate ourselves to personalized care, fostering <br>
+				empowerment, and nurturing holistic well-being through compassionate support and tailored solutions.
+			</h4>
+		</div>
+	</div>
+	<div class="strelka-1"></div>
+	<div class="footers">
+		<div class="footer-s">
+			<div class="tlt">
+				<div class="text-logo">ANGLEKARE</div>
+				<div class="under-text-logo">Copyright 2024 AngelKare All rights reserved.</div>
+			</div>
+			<div class="ctt">
+				<div class="contact">Contact</div>
+				<div class="contacted">
+					Phone: (605) 262-0506 <br>
+					Email: info@angelkare.org <br>
+					Phone: 1-888-286-1063 <br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		// Массив с путями к картинкам
+		var images = [
+			// "./img/1.png",
+			"./img/2.png",
+			"./img/3.png",
+			"./img/4.png"
+		]
+
+		var x = 0 // Индекс текущей картинки
+
+		function changeImage() {
+			var img = document.getElementById("img")
+			img.src = images[x]
+			x = (x + 1) % images.length // Переход к следующей картинке
+		}
+
+		// Запускаем смену картинок при загрузке страницы
+		window.onload = function () {
+			setInterval(changeImage, 4000) // Каждые 5 секунд
+		}
+		function toggleMenu() {
+			var menu = document.getElementById('menu')
+			if (menu.style.display === 'block') {
+				menu.style.display = 'none'
+			} else {
+				menu.style.display = 'block'
+			}
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/services.css">
+	<title>AngleKare - Services</title>
+</head>
+
+<body>
+	<header>
+		<div class="b-h-b">
+			<div class="bhb-lt">
+				<div class="bhb-l">
+					ANGLEKARE
+				</div>
+				<div class="burger" onclick="toggleMenu()">☰</div>
+				<div class="menu" id="menu">
+					<a href="./index.html">Home</a> <br>
+					<a href="./paycont.html">Payments</a> <br>
+					<a href="./services.html">Services</a> <br>
+					<a href="./story.html">Our Story</a>
+				</div>
+				<div class="bhb-a">
+					<a class="bhb-t-ahref" href="./index.html">
+						Home
+					</a>
+					<a class="bhb-t-ahref bhb-open" href="./services.html">
+						Services
+					</a>
+					<a class="bhb-t-ahref" href="./paycont.html">
+						Payments/Contact info
+					</a>
+					<a class="bhb-t-ahref" href="./story.html">
+						Our Story
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="block1">
+		<div class="block-1s">
+			<div class="h1">Our Services Include</div>
+			<div class="h2">
+				<div class="block-h2-1">
+					Meal preparation<br>
+					Bathingbr<br>
+					Medication reminders<br>
+					Transfers<br>
+					Errands<br>
+					Homemaking<br>
+					Companionship<br>
+					Family Respite<br>
+				</div>
+				<div class="block-h2-2">
+					Alzheimer Care<br>
+					Safety Supervision<br>
+					Transportation<br>
+					Hygiene<br>
+					Light Housekeeping<br>
+					Assist with Pet Care<br>
+					Doctors Appointments<br>
+					Assist with Walking<br>
+				</div>
+				<div class="block-h2-3">
+					Dressing Assistance<br>
+					Nail Care<br>
+					Care of House Plants<br>
+					Grocery Shopping<br>
+					Monitor Diet & Eating<br>
+					Food Expirations<br>
+					Take out Trash<br>
+					Incontinent Care<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footers">
+		<div class="footer-s">
+			<div class="tlt">
+				<div class="text-logo">ANGLEKARE</div>
+				<div class="under-text-logo">Copyright 2024 AngelKare All rights reserved.</div>
+			</div>
+			<div class="ctt">
+				<div class="contact">Contact</div>
+				<div class="contacted">
+					Phone: (605) 262-0506 <br>
+					Email: info@angelkare.org <br>
+					Phone: 1-888-286-1063 <br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		// Массив с путями к картинкам
+		var images = [
+			"/img/1.png",
+			"/img/2.png",
+			"/img/3.png",
+			"/img/4.png"
+		]
+
+		var x = 0 // Индекс текущей картинки
+
+		function changeImage() {
+			var img = document.getElementById("img")
+			img.src = images[x]
+			x = (x + 1) % images.length // Переход к следующей картинке
+		}
+
+		// Запускаем смену картинок при загрузке страницы
+		window.onload = function () {
+			setInterval(changeImage, 4000) // Каждые 5 секунд
+		}
+		function toggleMenu() {
+			var menu = document.getElementById('menu')
+			if (menu.style.display === 'block') {
+				menu.style.display = 'none'
+			} else {
+				menu.style.display = 'block'
+			}
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,821 @@
+* {
+	margin: auto;
+	padding: 0px;
+}
+body,
+html {
+	overflow-x: hidden;
+}
+header {
+	align-items: center;
+	display: flex;
+	height: 120px;
+	width: 100%;
+	background-color: #73c5d7;
+}
+.burger {
+	display: none;
+}
+.menu {
+	display: none;
+	flex-direction: column;
+	background-color: #333;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 200px;
+}
+.bhb-l {
+	font-size: 22px;
+	font-weight: 700;
+}
+.bhb-open {
+	color: #152124;
+}
+.bhb-t-ahref {
+	color: #314e54;
+	font-size: 15px;
+	font-weight: 500;
+}
+.bhb-a {
+	display: flex;
+	gap: 40px;
+}
+.bhb-lt {
+	display: flex;
+	gap: 670px;
+	font-family: 'Inter', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+.block-1s {
+	display: flex;
+	margin-top: 100px;
+	background-image: url('/img/ruki.png');
+	width: 1160px;
+	height: 496px;
+}
+
+.block-1 {
+	display: flex;
+}
+.b-b-1 {
+	text-align: left;
+	margin-right: 650px;
+	justify-content: flex-start;
+	display: block;
+}
+.b1-t-p {
+	color: #314c52;
+	font-family: 'Inter', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+}
+.b1-t-d {
+	margin-top: 20px;
+	color: #314e52;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+.btn-b1-r {
+	margin-top: 20px;
+	display: inline-block;
+}
+.btn-b1 {
+	background-color: #73c5d7;
+	color: #314e52;
+	font-family: 'Inter', sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	padding: 16px 32px;
+	border-radius: 7px;
+}
+.block-2s {
+	background-color: #73c5d7;
+	width: 100%;
+	height: 573px;
+	margin-top: 100px;
+	display: flex;
+}
+.block-2 {
+	background-image: url('/img/eblanka.png');
+	width: 1160px;
+	height: 473px;
+}
+.block-2-d {
+	margin-left: 590px;
+	display: block;
+	text-align: center;
+	align-items: center;
+}
+.b2-t-p {
+	margin-top: 180px;
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+}
+.b2-t-d {
+	margin-top: 20px;
+	color: #fff;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+.block-3s {
+	background-color: #ffffff;
+	width: 100%;
+	height: 455px;
+	margin-top: 100px;
+	display: flex;
+}
+.block-3 {
+	background-image: url('/img/perdun.png');
+	width: 1160px;
+	height: 455px;
+}
+.b-t3-d {
+	margin-right: 590px;
+	display: block;
+	text-align: center;
+	align-items: center;
+}
+.b3-t-p {
+	margin-top: 120px;
+	color: #000000;
+	font-family: 'Inter', sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+}
+.b3-t-d {
+	margin-top: 20px;
+	color: #000000;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+.strelka-1 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: #e4e4e4;
+	width: 1160px;
+	height: 2px;
+	border-radius: 999px;
+}
+.block-img-s {
+	display: flex;
+	width: 100%;
+}
+.block4s {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 50px;
+}
+.our {
+	color: #314c52;
+	font-family: 'Inter', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+}
+h4 {
+	color: #314c52;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+.footers {
+	width: 100%;
+	height: 180px;
+	background-color: #73c5d7;
+	display: block;
+}
+.footer-s {
+	display: flex;
+}
+.text-logo {
+	color: #204249;
+	font-family: 'Inter', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+.under-text-logo {
+	color: #204249;
+	font-family: 'Inter', sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+}
+.contact {
+	color: #204249;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+.contacted {
+	color: #204249;
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+}
+.tlt {
+	margin-top: 62px;
+}
+.ctt {
+	margin-top: 37px;
+}
+@media (max-width: 1440px) {
+	.bhb-lt {
+		display: flex;
+		font-family: 'Inter', sans-serif;
+	}
+}
+@media (max-width: 1170px) {
+	.b-b-1 {
+		text-align: left;
+		justify-content: flex-start;
+		display: block;
+	}
+	.b1-t-p {
+		color: #314c52;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 700;
+	}
+	.b1-t-d {
+		margin-top: 20px;
+		color: #314e52;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+	}
+	.btn-b1-r {
+		margin-top: 10px;
+		display: inline-block;
+	}
+	.btn-b1 {
+		background-color: #73c5d7;
+		color: #314e52;
+		font-family: 'Inter', sans-serif;
+		font-size: 12px;
+		font-weight: 500;
+		padding: 13px 23px;
+		border-radius: 7px;
+	}
+	.block-1s {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 70px;
+		background-image: url('/img/ruki2.png');
+		background-repeat: no-repeat;
+		width: 1170px;
+		height: 354px;
+	}
+
+	.block-1 {
+		display: flex;
+	}
+	.b-b-1 {
+		text-align: left;
+		margin-right: 650px;
+		justify-content: flex-start;
+		display: block;
+	}
+	.bhb-lt {
+		display: flex;
+		gap: 230px;
+		font-family: 'Inter', sans-serif;
+	}
+	.block-2s {
+		background-color: #73c5d7;
+		width: 100%;
+		height: 573px;
+		margin-top: 100px;
+		display: flex;
+	}
+	.block-2 {
+		background-image: url('/img/eblanka2.png');
+		background-repeat: no-repeat;
+		width: 1170px;
+		height: 354px;
+	}
+	.block-2-d {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		margin-left: 590px;
+		display: block;
+		text-align: center;
+		align-items: center;
+	}
+	.b2-t-p {
+		margin-top: 120px;
+		color: #fff;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b2-t-d {
+		color: #fff;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.block-3s {
+		background-color: #ffffff;
+		width: 100%;
+		height: 455px;
+		margin-top: 100px;
+		display: flex;
+	}
+	.block-3 {
+		background-image: url('/img/perdun2.png');
+		background-repeat: no-repeat;
+		width: 1170px;
+		height: 354px;
+	}
+	.b-t3-d {
+		margin-right: 590px;
+		display: block;
+		text-align: center;
+		align-items: center;
+	}
+	.b3-t-p {
+		margin-top: 110px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b3-t-d {
+		margin-top: 20px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.our {
+		color: #314c52;
+		font-family: 'Inter', sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+	}
+	h4 {
+		color: #314c52;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+		margin-top: 30px;
+	}
+}
+@media (max-width: 1024px) {
+	header{
+			align-items: center;
+			display: flex;
+			height: 80px;
+			width: 100%;
+			background-color: #73C5D7;
+	}
+	.bhb-l{
+			font-size: 22px;
+			font-weight: 700;
+	}
+	.bhb-open{
+			color: #152124;
+	}
+	.bhb-t-ahref{
+			color: #314E54;
+			font-size: 13px;
+			font-weight: 500;
+	}
+	.bhb-a{
+			display: flex;
+			gap: 10px;
+	}
+	.bhb-lt{
+			display: flex;
+			gap: 470px;
+			font-family: "Inter", sans-serif;
+	}
+}
+@media (max-width: 900px) {
+	header {
+		align-items: center;
+		display: flex;
+		height: 120px;
+		width: 100%;
+		background-color: #73c5d7;
+	}
+	.bhb-lt {
+		display: flex;
+		gap: 220px;
+		font-family: 'Inter', sans-serif;
+	}
+}
+
+@media (max-width: 768px) {
+	.block-img-s {
+		display: flex;
+	}
+	.img-b{
+		width: 100%;
+	}
+	.bhb-a {
+		display: flex;
+		gap: 17px;
+	}
+	header {
+		align-items: center;
+		display: flex;
+		height: 70px;
+		width: 100%;
+		background-color: #73c5d7;
+	}
+	.bhb-t-ahref {
+		color: #314e54;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.bhb-lt {
+		display: flex;
+		gap: 130px;
+		font-family: 'Inter', sans-serif;
+	}
+	.block-2s {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 50px;
+		background-image: url('/img/eblanka3.png');
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 350px;
+	}
+	.block-2-d {
+		margin-left: 440px;
+	}
+	.block-1s {
+		display: flex;
+		margin-top: 50px;
+		background-image: url('/img/ruki2.png');
+		width: 100%;
+		height: 350px;
+	}
+
+	.block-1 {
+		display: flex;
+	}
+	.b-b-1 {
+		text-align: left;
+		margin-right: 350px;
+		justify-content: flex-start;
+		display: block;
+	}
+	.strelka-1 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		background-color: #e4e4e4;
+		width: 600px;
+		height: 2px;
+		border-radius: 999px;
+	}
+
+	.b2-t-p {
+		margin-top: 90px;
+		color: #fff;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b2-t-d {
+		color: #fff;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.b3-t-p {
+		margin-top: 90px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b3-t-d {
+		margin-top: 20px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.block-3s {
+		background-color: #ffffff;
+		width: 100%;
+		height: 455px;
+		margin-top: 100px;
+		display: flex;
+	}
+	.block-3 {
+		background-image: url('/img/perdun3.png');
+		width: 100%;
+	}
+	.b-t3-d {
+		margin-right: 350px;
+		display: block;
+		text-align: center;
+		align-items: center;
+	}
+	.b3-t-p {
+		margin-top: 120px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b3-t-d {
+		margin-top: 20px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+}
+@media (max-width: 425px) {
+	.block-img-s {
+		display: flex;
+	}
+	.img-b{
+		width: 100%;
+	}
+	.strelka-1 {
+		display: none;
+	}
+	h4 {
+		margin-bottom: 90px;
+	}
+	.menu {
+		font-family: 'Inter', sans-serif;
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: 50px;
+		right: 0;
+		width: 200px;
+		padding: 13px;
+		border-radius: 10px;
+		background-color: #73c5d7;
+	}
+	.menu a {
+		color: rgb(0, 0, 0);
+		padding: 15px;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	.burger {
+		display: none;
+		cursor: pointer;
+		font-size: 30px;
+		color: white;
+		padding: 10px;
+	}
+	.burger {
+		display: flex;
+		position: relative;
+		bottom: 3px;
+	}
+	.bhb-a {
+		display: none;
+	}
+	header {
+		align-items: center;
+		display: flex;
+		height: 70px;
+		width: 100%;
+		background-color: #73c5d7;
+	}
+	.bhb-t-ahref {
+		color: #314e54;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.bhb-lt {
+		display: flex;
+		gap: 220px;
+		font-family: 'Inter', sans-serif;
+	}
+	.block-2s {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 50px;
+		background-image: url('/img/eblanka3.png');
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 350px;
+	}
+	.block-2-d {
+		margin-left: 10px;
+	}
+	.block-1s {
+		display: flex;
+		margin-top: 100px;
+		background-image: url('/img/ruki2.png');
+		width: 100%;
+		height: 350px;
+	}
+
+	.block-1 {
+		display: flex;
+	}
+	.b-b-1 {
+		text-align: left;
+		margin-right: 350px;
+		justify-content: flex-start;
+		display: block;
+	}
+	.bhb-lt {
+		display: flex;
+		gap: 130px;
+		font-family: 'Inter', sans-serif;
+	}
+	.strelka-1 {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		background-color: #e4e4e4;
+		width: 600px;
+		height: 2px;
+		border-radius: 999px;
+	}
+
+	.b2-t-p {
+		margin-top: 130px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b2-t-d {
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.b3-t-p {
+		margin-top: 90px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b3-t-d {
+		margin-top: 20px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.block-3s {
+		background-color: #ffffff;
+		width: 100%;
+		height: 455px;
+		margin-top: 20px;
+		display: flex;
+	}
+	.block-3 {
+		background-image: url('/img/perdun3.png');
+		width: 100%;
+	}
+	.b-t3-d {
+		margin-right: 1px;
+		display: block;
+		text-align: center;
+		align-items: center;
+	}
+	.b3-t-p {
+		margin-top: 100px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 25px;
+		font-weight: 600;
+	}
+	.b3-t-d {
+		margin-top: 20px;
+		color: #000000;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.block-1s {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 70px;
+		background-image: url('/img/ruki2.png');
+		background-repeat: no-repeat;
+		width: 425px;
+		height: 354px;
+	}
+
+	.block-1 {
+		display: flex;
+	}
+	.b-b-1 {
+		text-align: center;
+		margin-right: 1px;
+		justify-content: flex-start;
+		display: block;
+	}
+	.footers {
+		width: 100%;
+		height: 160px;
+		background-color: #73c5d7;
+		display: block;
+	}
+	.footer-s {
+		display: flex;
+	}
+	.text-logo {
+		color: #204249;
+		font-family: 'Inter', sans-serif;
+		font-size: 15px;
+		font-weight: 700;
+	}
+	.under-text-logo {
+		color: #204249;
+		font-family: 'Inter', sans-serif;
+		font-size: 11px;
+		font-weight: 700;
+	}
+	.contact {
+		color: #204249;
+		font-family: 'Inter', sans-serif;
+		font-size: 13px;
+		font-weight: 700;
+	}
+	.contacted {
+		color: #204249;
+		font-family: 'Inter', sans-serif;
+		font-size: 11px;
+		font-weight: 500;
+	}
+	.tlt {
+		margin-top: 50px;
+	}
+	.ctt {
+		margin-top: 37px;
+	}
+}
+@media (max-width: 375px) {
+	.block-1s {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 70px;
+		background-image: url('/img/ruki2.png');
+		background-repeat: no-repeat;
+		width: 375px;
+		height: 354px;
+	}
+	.block-img-s {
+		display: flex;
+	}
+	.img-b{
+		width: 100%;
+	}
+}
+@media (max-width: 320px) {
+	.block-img-s {
+		display: flex;
+	}
+	.img-b{
+		width: 100%;
+	}
+	.block-1s {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 70px;
+		background-image: url('/img/ruki2.png');
+		background-repeat: no-repeat;
+		width: 320px;
+		height: 354px;
+	}
+	.contact{
+		color: #204249;
+		font-family: "Inter", sans-serif;
+		font-size: 12px;
+		font-weight: 700;
+	}
+	.contacted{
+			color: #204249;
+			font-family: "Inter", sans-serif;
+			font-size: 11px;
+			font-weight: 500;
+	}
+}
