@@ -53,7 +53,7 @@ a {
 .block-1s {
 	display: flex;
 	margin-top: 100px;
-	background-image: url('./img/ruki.png');
+	background-image: url('../img/ruki.png');
 	width: 1160px;
 	height: 496px;
 }
@@ -101,7 +101,7 @@ a {
 	display: flex;
 }
 .block-2 {
-	background-image: url('./img/img1.png');
+	background-image: url('../img/img1.png');
 	width: 1160px;
 	height: 473px;
 }
@@ -133,7 +133,7 @@ a {
 	display: flex;
 }
 .block-3 {
-	background-image: url('./img/img2.png');
+	background-image: url('../img/img2.png');
 	width: 1160px;
 	height: 455px;
 }
@@ -271,7 +271,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		margin-top: 70px;
-		background-image: url('./img/ruki2.png');
+		background-image: url('../img/ruki2.png');
 		background-repeat: no-repeat;
 		width: 1170px;
 		height: 354px;
@@ -299,7 +299,7 @@ h4 {
 		display: flex;
 	}
 	.block-2 {
-		background-image: url('./img/img1_2.png');
+		background-image: url('../img/img1_2.png');
 		background-repeat: no-repeat;
 		width: 1170px;
 		height: 354px;
@@ -335,7 +335,7 @@ h4 {
 		display: flex;
 	}
 	.block-3 {
-		background-image: url('./img/img2_2.png');
+		background-image: url('../img/img2_2.png');
 		background-repeat: no-repeat;
 		width: 1170px;
 		height: 354px;
@@ -452,7 +452,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		margin-top: 50px;
-		background-image: url('./img/img1_3.png');
+		background-image: url('../img/img1_3.png');
 		background-repeat: no-repeat;
 		width: 100%;
 		height: 350px;
@@ -463,7 +463,7 @@ h4 {
 	.block-1s {
 		display: flex;
 		margin-top: 50px;
-		background-image: url('./img/ruki2.png');
+		background-image: url('../img/ruki2.png');
 		width: 100%;
 		height: 350px;
 	}
@@ -521,7 +521,7 @@ h4 {
 		display: flex;
 	}
 	.block-3 {
-		background-image: url('./img/img2_3.png');
+		background-image: url('../img/img2_3.png');
 		width: 100%;
 	}
 	.b-t3-d {
@@ -614,7 +614,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		margin-top: 50px;
-		background-image: url('./img/img1_3.png');
+		background-image: url('../img/img1_3.png');
 		background-repeat: no-repeat;
 		width: 100%;
 		height: 350px;
@@ -625,7 +625,7 @@ h4 {
 	.block-1s {
 		display: flex;
 		margin-top: 100px;
-		background-image: url('./img/ruki2.png');
+		background-image: url('../img/ruki2.png');
 		width: 100%;
 		height: 350px;
 	}
@@ -688,7 +688,7 @@ h4 {
 		display: flex;
 	}
 	.block-3 {
-		background-image: url('./img/img2_3.png');
+		background-image: url('../img/img2_3.png');
 		width: 100%;
 	}
 	.b-t3-d {
@@ -716,7 +716,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		margin-top: 70px;
-		background-image: url('./img/ruki2.png');
+		background-image: url('../img/ruki2.png');
 		background-repeat: no-repeat;
 		width: 425px;
 		height: 354px;
@@ -777,7 +777,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		margin-top: 70px;
-		background-image: url('./img/ruki2.png');
+		background-image: url('../img/ruki2.png');
 		background-repeat: no-repeat;
 		width: 375px;
 		height: 354px;
@@ -801,7 +801,7 @@ h4 {
 		align-items: center;
 		justify-content: center;
 		margin-top: 70px;
-		background-image: url('./img/ruki2.png');
+		background-image: url('../img/ruki2.png');
 		background-repeat: no-repeat;
 		width: 320px;
 		height: 354px;
